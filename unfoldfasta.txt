@@ -1,0 +1,1 @@
+perl -ne 'if ( /^>/ ) {print "\n";print;} else {chomp; print;}' $1
